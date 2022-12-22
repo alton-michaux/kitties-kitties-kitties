@@ -1,8 +1,24 @@
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  text-align: center;
+  color: aliceblue;
+  background-color: #282c34;
+  margin-top: 0;
+}
+
 .card-container {
+  width: 100vw;
   background-color: #282c34;
 }
 
 .kitty-card {
+  overflow: hidden;
   max-height: 100%;
   max-width: 100%;
   display: flex;
